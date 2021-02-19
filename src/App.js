@@ -1,23 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// import components
+import Hero from "./components/Hero";
+import Functions from "./components/Functions";
+import Header from "./components/Header";
+import Report from "./components/Report";
+import Chat from "./components/Chat";
+import SupportGroup from "./components/SupportGroup";
+import Risk from "./components/Risk";
+import FindHelp from "./components/FindHelp";
+import LearnMore from "./components/LearnMore";
+import ShareStory from "./components/ShareStory";
 
 function App() {
+  //write javascript here
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/report">
+            <Report />
+          </Route>
+          <Route path="/chat">
+            <Chat />
+          </Route>
+          <Route path="/support-group">
+            <SupportGroup />
+          </Route>
+          <Route path="/risk">
+            <Risk />
+          </Route>
+          <Route path="/help">
+            <FindHelp />
+          </Route>
+          <Route path="/learn-more">
+            <LearnMore />
+          </Route>
+          <Route path="/share-story">
+            <LearnMore />
+          </Route>
+          <Route path="/">
+            <Hero />
+            <Functions />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
