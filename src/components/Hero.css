@@ -1,23 +1,48 @@
 .hero {
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
+  height: 92vh;
   font-family: "Poppins", sans-serif;
   margin-top: 8vh;
 }
 
-.top_hero {
-  flex: 60%;
+.top_image {
+  height: 40%;
+  width: 40%;
+
   background: url("../asserts/hero.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.top_hero {
+  flex: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
 }
 .bottom_hero {
   flex: 40%;
   background-color: #eaeaea;
   text-align: center;
   padding: 20px;
+}
+
+.top_hero h1 {
+  font-size: 25px;
+}
+.top_hero p {
+  margin-top: 20px;
+}
+
+.top_hero .quote {
+  color: rgb(249, 249, 249, 0.7);
+  font-weight: 800;
 }
 
 .bottom_hero .main_text {
@@ -40,5 +65,19 @@
     display: grid;
     place-items: center;
     background-color: #fff;
+  }
+}
+
+@media (max-width: 725px) {
+  .top_hero {
+    border-radius: 0 0 30px 30px;
+    background: #8176ee;
+  }
+
+  .bottom_hero {
+    display: none;
+  }
+  .hero {
+    height: 60vh;
   }
 }

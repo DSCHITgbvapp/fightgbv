@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import { IconButton } from "@material-ui/core";
+import MenuIcon from "@material-ui/icons/Menu";
 
 // import components
 
@@ -11,11 +11,12 @@ function Header() {
 
   return (
     <div className="Header">
-      <h1 className="logo">GBV APP</h1>
-
       <IconButton>
-        <HelpOutlineIcon />
+        <MenuIcon />
       </IconButton>
+
+      <h1 className="logo">CONFIDANT</h1>
+
       <IconButton>
         <MoreVertIcon />
       </IconButton>

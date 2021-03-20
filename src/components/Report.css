@@ -1,3 +1,5 @@
 .Report {
   margin-top: 8vh;
+  display: grid;
+  place-items: center;
 }

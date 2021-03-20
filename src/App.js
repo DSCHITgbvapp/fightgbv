@@ -28,7 +28,7 @@ function App() {
           <Route path="/chat">
             <Chat />
           </Route>
-          <Route path="/support-group">
+          <Route path="/chats/:chatId">
             <SupportGroup />
           </Route>
           <Route path="/risk">
@@ -41,7 +41,7 @@ function App() {
             <LearnMore />
           </Route>
           <Route path="/share-story">
-            <LearnMore />
+            <ShareStory />
           </Route>
           <Route path="/">
             <Hero />

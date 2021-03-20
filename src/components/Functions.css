@@ -1,6 +1,5 @@
 .Functions {
-  margin-top: -150px;
-  background-color: #6c63ff;
+  background-color: #ffffff;
 }
 .container {
   padding: 20px;
@@ -14,6 +13,7 @@
 .box {
   background-color: #fff;
   border: 1px solid #c1c1c1;
+  color: #333333 !important;
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -49,8 +49,49 @@
   margin: 15px 0 10px;
 }
 
-@media (min-width: 725px) {
-  .Functions {
-    margin-top: 0;
+.icon {
+  display: none;
+}
+
+@media (max-width: 725px) {
+  .box-button {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .box-title {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  .box-preview {
+    flex: 1;
+  }
+  .icon {
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .thumbnail {
+    height: 100px;
+    width: 40%;
+    display: none;
+  }
+
+  .box {
+    display: flex;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f5f6fa;
+    color: #333 !important;
+
+    -webkit-box-shadow: 2px 4px 5px -2px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 2px 4px 5px -2px rgba(0, 0, 0, 0.59);
+    box-shadow: 2px 4px 5px -2px rgba(0, 0, 0, 0.59);
+
+    /* box-shadow: 0 1px 4px 1px #000000; */
   }
 }

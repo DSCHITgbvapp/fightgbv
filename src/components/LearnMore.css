@@ -1,3 +1,44 @@
 .LearnMore {
   margin-top: 8vh;
+  padding: 10px;
+}
+
+.LearnMore > div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  line-height: 1.5;
+  color: #333;
+  border-radius: 10px;
+}
+
+.LearnMore > div h1 {
+  font-size: 18px;
+}
+.LearnMore > div h3 {
+  font-size: 16px;
+}
+.LearnMore > div ul {
+  margin-left: 25px;
+}
+.LearnMore > button {
+  display: block;
+  font-size: 16px;
+  border: 0;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 15px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  color: #8c81f7;
+  text-decoration: underline;
+  outline: 0;
+}
+
+.LearnMore > button:active {
+  outline: 0;
+}
+.active {
+  display: none;
+  transition: all 1s ease-in-out;
 }

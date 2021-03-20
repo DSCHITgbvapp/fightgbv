@@ -1,0 +1,35 @@
+.StepOne,
+.StepTwo,
+.StepThree {
+  max-width: 800px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.steps_container > h1 {
+  font-size: 20px;
+}
+.steps_container > label {
+  display: flex;
+  align-items: center;
+}
+
+.steps_container > label > input {
+  padding: 10px;
+  width: 300px;
+}
+
+.StepOne.steps_container > label > input,
+.StepTwo.steps_container > label > input {
+  width: fit-content;
+}
+
+.steps_container > label > h3 {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.StepThree.steps_container > label {
+  flex-direction: column;
+  align-items: flex-start;
+}

@@ -1,5 +1,5 @@
 .Header {
-  background-color: #6c63ff;
+  background-color: #8c81f7;
   color: #fff;
   position: fixed;
   top: 0;
@@ -10,12 +10,12 @@
   padding: 10px 20px;
   height: 8vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  box-shadow: 0 4px 4px -2px #333333;
 }
 
 .Header .logo {
-  margin-right: auto;
   font-size: 20px;
 }
 
