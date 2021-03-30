@@ -2,7 +2,25 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
+}
+
+:root {
+  --mainPinkColor: #fe0072;
+  --mainLightgray: #eaeaea;
+}
+
+ul {
+  margin-left: 20px;
+}
+.App {
+  position: relative;
+}
+
+body {
+  background: #fff;
 }

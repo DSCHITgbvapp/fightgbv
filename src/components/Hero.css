@@ -71,7 +71,7 @@
 @media (max-width: 725px) {
   .top_hero {
     border-radius: 0 0 30px 30px;
-    background: #8176ee;
+    background: var(--mainPinkColor);
   }
 
   .bottom_hero {

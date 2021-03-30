@@ -1,0 +1,41 @@
+.SplashScreen {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.61),
+      rgba(0, 0, 0, 0.61)
+    ),
+    url(../asserts/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 7vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 0 0 25px 25px;
+}
+
+.SplashScreen h1 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 760px) {
+  .SplashScreen h1 {
+    font-size: 45px;
+  }
+  .SplashScreen p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 85%;
+  }
+
+  .SplashScreen {
+    border-radius: 0;
+  }
+}

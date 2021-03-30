@@ -1,97 +1,54 @@
-import React, { useState } from "react";
+import React from "react";
 import "./LearnMore.css";
+import { Link } from "react-router-dom";
 
-import { HelpOutline } from "@material-ui/icons";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-// import components
+import Coercion from "./../asserts/coercion.jpg";
+import Assault from "./../asserts/sexual-assault.jpg";
+import Stalking from "./../asserts/stalking.jpg";
 
 function LearnMore() {
-  //write javascript here
-  const [togglegbv, setTogglegbv] = useState(true);
-  const [toggleabuse, setToggleabuse] = useState(true);
-
-  const GBVtoggler = () => {
-    setTogglegbv((prev) => !prev);
-  };
-
-  const Abusetoggler = () => {
-    setToggleabuse((prev) => !prev);
-  };
-
   return (
     <div className="LearnMore">
-      <button onClick={GBVtoggler}>
-        {" "}
-        Gender Based Violence <HelpOutline />{" "}
-      </button>
-      <div className={togglegbv ? "active" : ""}>
-        <h1>What is GBV</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-        <h1>What does the Zimbabwe constitution say about GBV</h1>
-        <p>
-          Section [1] subsection 3 ..Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Veritatis, quas. Lorem, ipsum dolor. Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit. Hic, neque!
-        </p>
-        <h1>I am a victim where can I get help</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-      </div>
-
-      {/* Abuse toggler */}
-      <button onClick={Abusetoggler}>
-        {" "}
-        Abuse <HelpOutline />
-      </button>
-      <div className={toggleabuse ? "active" : ""}>
-        <h1>Types of abuse</h1>
-
-        <h3>Sexual Abuse</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-        <h3>Physical</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-        <h3>Economic Abuse</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-        <h1>What does the constitution of Zim say about Abuse</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
-          quas. Lorem, ipsum dolor. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Hic, neque!
-        </p>
-        <h3>Where to get help if I am a victim</h3>
-        <ul>
-          <li>Roots - A place that houses victims of GBV and abuse</li>
-          <p>
-            Contact <a href="tel:+263775900840">+263775900840</a>
-          </p>
-          <li>lorem Ipsum</li>
-          <li>lorem Ipsum dolor</li>
-        </ul>
-      </div>
+      <Link to="/coercion">
+        <div className="postThumbnail">
+          <img src={Coercion} alt="" />
+          <div className="thumbnailDescription">
+            <h2>Sexual Coercion</h2>
+            <p>
+              Sexual coercion is unwanted sexual activity that happens when you
+              are pressured, tricked, threatened, or forced in a nonphysical
+              way....
+            </p>
+          </div>
+        </div>
+      </Link>
+      <Link to="/sexual-assault">
+        <div className="postThumbnail">
+          <img src={Assault} alt="" />
+          <div className="thumbnailDescription">
+            <h2>Sexual Assault</h2>
+            <p>
+              Sexual assault is any type of sexual activity or contact,
+              including rape, that happens without your consent....
+            </p>
+          </div>
+        </div>
+      </Link>
+      <Link to="/stalking">
+        <div className="postThumbnail">
+          <img src={Stalking} alt="" />
+          <div className="thumbnailDescription">
+            <h2>Stalking</h2>
+            <p>
+              Stalking is repeated contact that makes you feel afraid or
+              harassed. Someone may stalk you by following you or calling you
+              often...
+            </p>
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }

@@ -1,3 +1,21 @@
 .FindHelp {
-  margin-top: 8vh;
+  margin: 8vh auto 0;
+  max-width: 800px;
+}
+.FindHelp .listItem:nth-child(odd) {
+  background: var(--mainLightgray);
+}
+
+.FindHelp .listItem {
+  padding: 20px;
+  border: 1px solid var(--mainLightgray);
+}
+.FindHelp .listItem p.phone{
+  display: flex;
+  align-items: center;
+}
+
+.FindHelp .listItem p{
+  padding: 5px;
+  font-size : 15px;
 }

@@ -1,0 +1,48 @@
+.Stats {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.Stats h1 {
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+
+.Stats h2 {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Stats h3 {
+  margin: 15px;
+}
+
+.Stats .subtext {
+  color: #666666;
+  font-weight: 600;
+  margin: 30px 0 10px;
+}
+
+.woman {
+  font-size: 27px;
+  color: var(--mainLightgray);
+}
+
+.first {
+  color: var(--mainPinkColor);
+}
+
+.statistics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.statistics p {
+  font-size: 14px;
+}
+
+@media (min-width: 725px) {
+}

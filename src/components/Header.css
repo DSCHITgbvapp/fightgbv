@@ -1,24 +1,26 @@
 .Header {
-  background-color: #8c81f7;
-  color: #fff;
+  background-color: #eaeaea;
+  color: #666666;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 5;
   display: block;
   width: 100%;
   padding: 10px 20px;
   height: 8vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 4px -2px #333333;
+  box-shadow: 0 2px 2px -2px #333333;
 }
 
-.Header .logo {
+.logo {
   font-size: 20px;
+  height: 7vh;
+  object-fit: contain;
+  margin: auto !important;
 }
 
 .Header .MuiSvgIcon-root {
-  color: #fff;
 }

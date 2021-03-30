@@ -1,44 +1,25 @@
 .LearnMore {
-  margin-top: 8vh;
-  padding: 10px;
+  margin: 8vh auto 30px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
-.LearnMore > div {
-  background-color: #f9f9f9;
-  padding: 10px;
+.LearnMore .postThumbnail {
   line-height: 1.5;
   color: #333;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
 }
 
-.LearnMore > div h1 {
-  font-size: 18px;
+.postThumbnail img {
+  height: 200px;
+  width: 100%;
 }
-.LearnMore > div h3 {
-  font-size: 16px;
-}
-.LearnMore > div ul {
-  margin-left: 25px;
-}
-.LearnMore > button {
-  display: block;
-  font-size: 16px;
-  border: 0;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-top: 15px;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  color: #8c81f7;
-  text-decoration: underline;
-  outline: 0;
-}
-
-.LearnMore > button:active {
-  outline: 0;
-}
-.active {
-  display: none;
-  transition: all 1s ease-in-out;
+.postThumbnail .thumbnailDescription {
+  padding: 16px;
 }

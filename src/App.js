@@ -3,33 +3,32 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import components
-import Hero from "./components/Hero";
+import SplashScreen from "./components/SplashScreen";
 import Functions from "./components/Functions";
-import Header from "./components/Header";
-import Report from "./components/Report";
-import Chat from "./components/Chat";
-import SupportGroup from "./components/SupportGroup";
+import Navbar from "./components/Navbar";
+import ReportForm from "./components/ReportForm";
+import Statistics from "./components/Statistics";
 import Risk from "./components/Risk";
 import FindHelp from "./components/FindHelp";
 import LearnMore from "./components/LearnMore";
 import ShareStory from "./components/ShareStory";
+import Stats from "./components/Stats";
+import Coercion from "./components/Coercion";
+import Stalking from "./components/Stalking";
+import SexualAssault from "./components/SexualAssault";
 
 function App() {
   //write javascript here
-
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Navbar />
         <Switch>
           <Route path="/report">
-            <Report />
+            <ReportForm />
           </Route>
-          <Route path="/chat">
-            <Chat />
-          </Route>
-          <Route path="/chats/:chatId">
-            <SupportGroup />
+          <Route path="/statistics">
+            <Statistics />
           </Route>
           <Route path="/risk">
             <Risk />
@@ -43,8 +42,18 @@ function App() {
           <Route path="/share-story">
             <ShareStory />
           </Route>
+          <Route path="/sexual-assault">
+            <SexualAssault />
+          </Route>
+          <Route path="/coercion">
+            <Coercion />
+          </Route>
+          <Route path="/stalking">
+            <Stalking />
+          </Route>
           <Route path="/">
-            <Hero />
+            <SplashScreen />
+            <Stats />
             <Functions />
           </Route>
         </Switch>

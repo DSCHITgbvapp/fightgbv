@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Victim Friendly Unit",
+        "description": "These are special departments in Zim Police trained to handle GBV cases. We encourage that you visit any Police station and mention specifically that you want to speak with anyone from VFU",
+        "address": "Any police station",
+        "phone": " "
+    },
+    {
+        "name": "Mbare Clinic Clinic For Survivors",
+        "description": "Its open everyday and ready to help any survivor of gbv",
+        "address": "Mbare, Harare",
+        "phone": "0773 223 865 "
+    },
+    {
+        "name": "Musasa Project",
+        "description": "Deals with relief to survivors of GBV",
+        "address": "Harare : 64 Selous Ave/ Cnr 7th street | Bulawayo : 49 Fife Ave",
+        "phone": "0775 442 300"
+    },
+    {
+        "name": "SALT (Someone Always Listens Toyou)",
+        "description": "Dedicated team ready to help you with crisis calls such as GBV, stress anxiety, greef and other crisis",
+        "address": "30  St Dominic Rd Harare",
+        "phone": "0786 306 663"
+    },
+    {
+        "name": "Adult Rape Clinic",
+        "description": "ARC provides free medical and psycho-social care to both male and female victims",
+        "address": "Ward C9, Parirenyatwa",
+        "phone": "0775 672 770 | 0733 406 292"
+    },
+    {
+        "name": "ROOTS",
+        "description": "ROOTS provides victims with a place they can breathe, heal and explore their options",
+        "address": "96 Amandas Concession",
+        "phone": "0775 900 840"
+    },
+    {
+        "name": "Fathers Against Abuse",
+        "description": "Encourages and challenge all man to take a stance to campaign for the end of GBV",
+        "address": "89 Chiltern Drive Waterfalls,Harare",
+        "phone": "0772 848 661"
+    },
+    {
+        "name": "Padare",
+        "description": "Movement of men advocating for gender justice",
+        "address": "Harare : 10 Cardigan Road, Belvedere | Gweru : 49 1028 Leeds Road, Light Industries",
+        "phone": "0773 302 592"
+    },
+    {
+        "name": "One Stop Centres",
+        "description": "The Zimbabwe Government launched One Stop Centres to assist victims of GBV",
+        "address": "Harare : 64 Selous Ave/ Cnr 7th street | Chipinge : Chipinge District Hospital | Rusape : Rusape General Hospital | Gwanda : Gwanda Provincial Hospital | Gweru : Gweru Provincial Hospital",
+        "phone": "0773 302 592"
+    },
+    {
+        "name": "Bantwana",
+        "description": "Bantwana Gender Based Violence Prevention and Response Program supports local Zimbabwean organizations and governments to prevent and respond to GBV against adolescent girls ",
+        "address": "Harare : 29 Lawson Ave Milton Park",
+        "phone": "263 242794620"
+    },
+    {
+        "name": "Shamwari Yemwana Sikana (SYS)",
+        "description": "Promotes Rights and empowerment of the girl child. Can help female victims  ",
+        "address": "Harare : 29 Lawson Ave Milton Park",
+        "phone": "263 242794620"
+    },
+    {
+        "name": "UNICEF Zimbabwe",
+        "description": "UNICEF Zimbabwe is ready to help victims and survivors  ",
+        "address": "6 Fairbridge Ave, Belgravia, Harare ",
+        "phone": "263 242 703941/2"
+    }
+]

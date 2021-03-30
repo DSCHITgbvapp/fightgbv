@@ -1,0 +1,71 @@
+.Navbar {
+  z-index: 100000;
+  background: #fff;
+  color: #666666;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 2px -2px #333333;
+}
+
+.hamburgerIcon {
+  position: absolute !important;
+  left: 0;
+  top: 0;
+}
+
+.hamburgerIcon .MuiSvgIcon-root {
+  font-size: 1.8rem !important;
+}
+
+.SideMenu {
+  min-width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out;
+  border-right: 1px solid #333333;
+}
+
+.closeIcon {
+  float: right;
+}
+
+.SideMenu ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 80%;
+  overflow: hidden;
+}
+.SideMenu ul li {
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px;
+  color: #333333;
+}
+.SideMenu ul li:hover {
+  background-color: var(--mainPinkColor);
+  color: #fff;
+}
+
+.Navbar img.logo {
+  height: 7vh !important;
+}
+
+.active {
+  left: 0;
+}

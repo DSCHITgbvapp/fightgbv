@@ -1,25 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-// import components
+// import Hamburger from "./HamburgerIcon";
+
+import Logo from "./../asserts/Logo.png";
 
 function Header() {
-  //write javascript here
-
   return (
     <div className="Header">
-      <IconButton>
-        <MenuIcon />
-      </IconButton>
+      <Link to="/">
+        <img className="logo" src={Logo} alt="" />
+      </Link>
 
-      <h1 className="logo">CONFIDANT</h1>
-
-      <IconButton>
-        <MoreVertIcon />
-      </IconButton>
+      {/* <Hamburger /> */}
     </div>
   );
 }
