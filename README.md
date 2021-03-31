@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Confidant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](/src/asserts/Logo.png)
 
-## Available Scripts
+# Description 
 
-In the project directory, you can run:
+Confidant is a Web based platform developed to fight GBV. The platform was developed after noticing an increase in the number of gender based violence cases in the country due to the imposed lockdown as those people who were in abusive relationships are now spending more time with their abusers.
 
-### `npm start`
+It allows users to
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Report GBV cases
+2. Find details of where they can get GBV related help.
+3. Read GBV victims’ stories or share their own GBV stories
+4. Learn about GBV and other types of violence.
+5. Look at the Zimbabwean and worldwide GBV statistics.
+6. Go through an assessment that will determine if they are at risk of GBV. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# How to use it
+To use the app users can visit [https://confidant-zw.web.app here](https://confidant-zw.web.app/)
 
-### `npm test`
+# About the project 
+The project was created using the following technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## React js
+Frontend was built using reactjs
 
-### `npm run build`
+## firebase
+The app is hosted on firebase and also uses firebase firestore as db
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## CSS
+All styling was done using CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Project setup 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the project to your local repo
+- to do this you can open your terminal and then type 
+```
+$ git clone https://github.com/DSCHITgbvapp/fightgbv
+```
+this clones the repo
 
-### `npm run eject`
+2. ```cd``` into the new folder and type
+``` $ npm install```
+This installs the required dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. To run the project run 
+ ```$ npm start```
+This will open up the project in your browser on localhost:3000
+We describe how to run the project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Testing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- We visited the police and had an officer go through it.
+- Visited and also sent to organizations that deal with gbv like Musasa for them to try out
+- Asked random strangers to test it out
+- Created a google form for all these people to report feedback anonymously
+![](feedback-form-screenshotpng.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Feedback & action
+- We implemented icons instead of illustrations and got rid of the purple theme after user feedback 
+![](before-illustrations.jpg height="200")
+image of the app before the feedback
+![](after.jpg)
+image of the app after the feedback
 
-## Learn More
+- Removed the chat feature advice from someone who works for an NGO that focuses on GBV, saying why would someone use our chat feature instead of going straight to Musasa's whatsapp number 
+![](before-chat.jpg)
+images of the app before the feedback
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
