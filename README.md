@@ -24,8 +24,8 @@ The project was created using the following technologies
 ## React js
 Frontend was built using reactjs
 
-## firebase
-The app is hosted on firebase and also uses firebase firestore as db
+## Firebase
+The app is hosted on Firebase and also uses Firebase firestore as db
 
 ## CSS
 All styling was done using CSS
@@ -51,7 +51,7 @@ We describe how to run the project
 # Testing
 
 - We visited the police and had an officer go through it.
-- Visited and also sent to organizations that deal with gbv like Musasa for them to try out
+- Visited and also sent to organizations that deal with GBV like Musasa for them to try out
 - Asked random strangers to test it out
 - Created a google form for all these people to report feedback anonymously
 ![](feedback-form-screenshotpng.png)
